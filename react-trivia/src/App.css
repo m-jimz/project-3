@@ -144,3 +144,12 @@ body {
     font-size: 1rem;                       /* Smaller text */
   }
 }
+
+.feedback.neutral { opacity: 0.7; }
+.feedback.correct { color: #2e7d32; font-weight: 700; }
+.feedback.incorrect { color: #c62828; font-weight: 700; }
+
+.flashcards-actions button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
